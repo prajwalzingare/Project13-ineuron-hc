@@ -1,4 +1,4 @@
-# Project-12 | ineuron | HTML and CSS
+# Project-13 | ineuron | HTML and CSS
 
 By prajwal zingare
 
@@ -11,22 +11,21 @@ By prajwal zingare
 ![HTML & CSS-Assighnment](https://img.shields.io/badge/HTML--CSS-Assighnment-orange)
 
 
-![HTML & CSS-Assighnment-project](https://img.shields.io/badge/HTML--CSS-Project--11-orange)
+![HTML & CSS-Assighnment-project](https://img.shields.io/badge/HTML--CSS-Project--13-orange)
 
 
-🔗Go Live : [Project-12](https://project12-ineuron-hc.netlify.app/)
+🔗Go Live : [Project-13](https://project-13-ineuron-hc.netlify.app/)
 
 ---
 
-![myproject](./images/Screenshot%20(25).png)
+![myproject](./svg/ss1.png)
 
-![myproject](./images/Screenshot%20(26).png)
+![myproject](./svg/ss2.png)
 
 ---
 ## What I learned from this Project
-  - I learned about image adjustment.
-  - I  learned about css units indepth.
- - I lerned how to create hr line and how to desighn that.
-  
+  - I learned about card box shadow.
+  - I  learned about how to adjust image icon in div with 50% border-radius
+
   ## Time required for finishing the peoject
-  - It takes me near about 6 hours to complete the project.
+  - It takes me near about 2 hours to complete the project.
