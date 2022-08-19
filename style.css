@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'PT Serif', serif;
+}
 
-/* navbar desighin  */
+/* navbar design  */
 .navbar {
     background-color: #4e248c;
     padding-bottom: 100px;
@@ -51,6 +57,17 @@ nav .navbar-btn {
     font-size: 1.3rem;
 }
 
+@media only screen and (max-width:1200px) {
+    nav .list-items ul {
+        list-style: none;
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width:800px) {}
+
 /* home Desighin  */
 
 .home {
@@ -58,9 +75,18 @@ nav .navbar-btn {
     padding: 2% 10%;
 }
 
+.home .home-right {
+
+    width: 34rem;
+    height: 500px;
+
+}
+
 .home .home-right img {
-    height: 34rem;
-    width: 45rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
     padding-left: 30px;
 }
 
@@ -92,16 +118,50 @@ nav .navbar-btn {
     font-size: 1.3rem;
 }
 
+@media screen and (max-width:1100px) {
+    .home {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2% 4%;
+    }
+
+    .home .home-left {
+        padding-top: 74px;
+        padding-left: 40px;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .home .home-left h1 {
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 20px 0px;
+    }
+}
+
+
+
+
 /* services section desighn  */
 
 .service {
     display: flex;
     padding: 2% 10%;
+    flex-wrap: wrap;
+}
+
+.service .service-left {
+    height: 500px;
+    width: 34rem;
 }
 
 .service .service-left img {
-    height: 34rem;
-    width: 45rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
 }
 
 .service .service-right {
@@ -123,6 +183,10 @@ nav .navbar-btn {
     margin-bottom: 20px;
 }
 
+/* media queri for service section  */
+
+@media screen and (max-width:1100px) {}
+
 /* feture section desighn  */
 
 .feature {
@@ -135,9 +199,21 @@ nav .navbar-btn {
     margin-bottom: 40px;
 }
 
+
+@media screen and (max-width:800px) {
+    .feature-heading {
+        font-size: 2rem;
+    }
+}
+
+
+/* cards section  */
+
 .cards {
     display: flex;
     column-gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cards .card {
@@ -146,6 +222,7 @@ nav .navbar-btn {
     box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 2.6px;
     border-radius: 20px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 /* web-card  */
